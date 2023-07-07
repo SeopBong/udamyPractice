@@ -12,11 +12,18 @@
 }
 .container1{
   background-color: #252629;
-  border-radius: 12px;
+  /* border-radius: 12px;
   margin-left: 3rem;
   margin-right: 3rem;
   padding-top: 3px;
-  padding-bottom: 3px;
+  padding-bottom: 3px; */
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
