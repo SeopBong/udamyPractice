@@ -26,7 +26,7 @@ const Expenses = (props) =>{
       />
     ));
   }
-
+//여기서부터 신규 0802//
     return (
       <div>
     <Card className='expenses'>
