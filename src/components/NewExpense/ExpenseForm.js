@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-
+import NewExpense from './NewExpense';
 import './ExpenseForm.css';
 
 const ExpenseForm = (props) =>{
@@ -65,8 +65,9 @@ const ExpenseForm = (props) =>{
                 <input type='date' min="2019-01-01" max="2024-12-31" onChange={dateChangeHandler} />
             </div>
         </div>
-        <div className='new-expense__controls'>
-            <button type='submit' className='new-expense__button' >Add Expense</button>
+        <div className='new-expense__actions'>
+            <button type='button' onClick={props.oncancel}>Cancel</button>
+            <button type='submit' className='new-expense__button'>Add Expense</button>
         </div>
     </form>
     );
